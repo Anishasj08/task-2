@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="card" *ngFor="let mobile of mobileProduct">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4"
+                  ><img src="{{mobile.image}}" alt=""></div>
+                    <div class="col-md-8">
+                        <p class="bold">{{mobile.name}}</p>
+                        <span class="freedom" *ngIf="mobile.isAvailable; else product"> Great Freedom Sale </span>
+                        <ng-template #product><span class="redii">Out Of Stock</span></ng-template>
+                       <div> <p class="big">
+                        ₹
+                        {{mobile.price}}<span class="small">   M.R.P: 20% Off</span></div>
+                        <span class="green">save  ₹500</span><span>with coupon</span>
+                        <p><i class="fa-solid fa-star coli "></i><i class="fa-solid fa-star coli"></i><i class="fa-solid fa-star coli"></i><i class="fa-regular fa-star coli"></i><i class="fa-regular fa-star coli"></i></p>
+                        <p class="small">13MP AI Rear Camera | 8MP Front Camera
+                            6.8inch HD+ IPS Display with 90Hz Refresh Rate | Side Mounted Fingerprint Sensor | 7000 mAh Massive Battery
+                            One Time Screen Replacement Within 100 Days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

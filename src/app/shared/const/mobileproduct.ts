@@ -1,0 +1,85 @@
+import { Imobile } from "../models/interface";
+
+export const mobileProducts:Array<Imobile>= [
+    {
+      id: 1,
+      name: 'Apple iPhone 14 (512 GB) - Starlight 8MP AI Rear Camera | 5000mAh Battery with 10W Charging |limmest Phone in Segment | 90 Hz Smooth Display',
+      brand: 'Apple',
+      price: 99999,
+      image: "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_UY327_FMwebp_QL65_.jpg",
+      isAvailable: true,
+    },
+    {
+      id: 2,
+      name: 'Itel A60s (4GB RAM + 64GB ROM, Up to 8GB RAM with Memory Fusion | 8MP AI Rear Camera | 5000mAh Battery with 10W Charging | Faceunlock & Fingerprint -Glacier Green',
+      brand: 'Samsung',
+      price: 89999,
+      image: 'https://m.media-amazon.com/images/I/71K84j2O8wL._AC_UY327_FMwebp_QL65_.jpg',
+      isAvailable: false,
+    },
+    {
+      id: 3,
+      name: 'realme narzo N53 (Feather Gold, 6GB+128GB) 33W Segment Fastest Charging | Slimmest Phone in Segment | 90 Hz Smooth Display',
+      brand: 'Google',
+      price: 79989,
+      image: 'https://m.media-amazon.com/images/I/61OBw+XUiuL._AC_UY327_FMwebp_QL65_.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 4,
+      name: 'realme narzo N53 (Feather Black, 6GB+128GB) 33W Segment Fastest Charging | Slimmest Phone in Segment | 90 Hz Smooth Display',
+      brand: 'OnePlus',
+      price: 89956,
+      image: 'https://m.media-amazon.com/images/I/81wyL226-gL._AC_UY327_QL65_.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 5,
+      name: 'Nokia C22 | 3-Day Battery Life | 6GB RAM (4GB RAM + 2GB Virtual RAM) | 13 MP Dual Rear AI Camera with Night & Portrait Mode | IP52 | Charcoal',
+      brand: 'Xiaomi',
+      price: 69978,
+      image: 'https://m.media-amazon.com/images/I/71-yDa90UrL._AC_UY327_QL65_.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 6,
+      name: 'Redmi 12C (Royal Blue, 4GB RAM, 64GB Storage) | High Performance Mediatek Helio G85 | Big 17cm(6.71) HD+ Display with 5000mAh(typ) Battery',
+      brand: 'Sony',
+      price: 11989,
+      image: 'https://m.media-amazon.com/images/I/81-JH9qHdfL._AC_UY327_FMwebp_QL65_.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 7,
+      name:' Redmi 12C (Royal Blue, 4GB RAM, 64GB Storage) | High Performance Mediatek Helio G85 | Big 17cm(6.71) HD+ Display with 5000mAh(typ) Battery',
+      brand: 'LG',
+      price: 59978,
+      image: 'https://m.media-amazon.com/images/I/61cInRWmClL._AC_UY327_FMwebp_QL65_.jpg',
+      isAvailable: false,
+    },
+    {
+      id: 8,
+      name: 'Itel P40+ (4GB RAM+128GB ROM, 8GB* RAM with Memory Fusion | 13MP AI Rear Camera | 7000mAh Battery with 18W Fast Charging | 6.8" HD+ IPS Punch Hole 90Hz Diplay ',
+      brand: 'Huawei',
+      price: 89978,
+      image: 'https://m.media-amazon.com/images/I/81WPIz1l5wL._AC_UY327_QL65_.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 9,
+      name: 'Redmi 12C (Royal Blue, 4GB RAM, 64GB Storage) | High Performance Mediatek Helio G85 | Big 17cm(6.71) HD+ Display with 5000mAh(typ) Battery',
+      brand: 'Motorola',
+      price: 24989,
+      image: 'https://m.media-amazon.com/images/I/810fCELNzvL._AC_UY327_QL65_.jpg',
+      isAvailable: true,
+    },
+    {
+      id: 10,
+      name: 'Nokia G11 Android 12 Smartphone, Dual SIM, 3-Day Battery Life, 4GB RAM + 64GB Storage, 50MP Dual AI Camera | Charcoal Grey',
+      brand: 'Nokia',
+      price: 49989,
+      image: 'https://m.media-amazon.com/images/I/61OBw+XUiuL._AC_UY327_FMwebp_QL65_.jpg',
+      isAvailable: true,
+    }
+  
+  ];
